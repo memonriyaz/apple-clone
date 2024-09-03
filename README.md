@@ -1,4 +1,4 @@
-#Apple Website Clone
+# Apple Website Clone
 
 📦This project is a static HTML clone of the Apple website, demonstrating a clean and responsive design. It showcases various product highlights and promotional content similar to the Apple site.
 
