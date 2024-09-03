@@ -1,0 +1,467 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+dialog{
+    padding: 0;
+    position: static;
+    background-color: #f5f5f7;
+    border: none;
+    outline: none;
+    width: 96vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+dialog .dialog-body {
+    width: 80%;
+    color: #000;
+}
+
+dialog .main-dialog{
+    display: flex;
+}
+
+dialog form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+dialog form select{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 250px;
+    border-radius: 10px;
+}
+
+dialog form button[type="submit"]{
+    font-size: 16px;
+    border: none;
+}
+
+dialog form .button{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+/* NavBar Styling */
+
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap : 10px;
+}
+
+nav .logo{
+    height: 20px;
+}
+
+nav .nav-items{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-items li{
+    cursor: pointer;
+}
+
+nav .nav-items li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav .nav-icons img{
+    height: 20px;
+    margin: 10px;
+}
+
+
+/* Hero Section  */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f7;
+    gap: 20px;
+}
+
+.hero-img{
+    width: 70vh;
+}
+
+.blue-outline-button{
+    outline: none;
+    background: none;
+    border: 1px solid #06c;
+    border-radius: 30px;
+    color: #06c;
+    padding: 10px 20px;
+    margin: 4px 2px 30px;
+    font-size: 16px;
+}
+
+.blue-outline-button:hover{
+    background-color: #06c;
+    color: #fff;
+}
+
+.blue-button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #06c;
+    color: #fff;
+}
+
+.hero-macbook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f7;
+    margin-top: 15px;
+}
+
+.hero-macbook h1{
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.hero-macbook p{
+    padding: 0px;
+    font-size: 1.5rem;
+    margin: 10px;
+    
+}
+
+.blue-button:hover{
+    opacity: 0.8;
+}
+
+.macbook-img{
+    width: 98vw;
+    margin-bottom: 30px;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+.sec-iphone{
+    margin-top: 15px;
+    background-image: url("assets/images/iphone.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 15px;
+    
+}
+
+.sec-ipad{
+    display: flex;
+    color: #fff;
+    background-color: #000;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("assets/images/ipad.jpg");
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sec-iphone h1{
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.sec-iphone p{
+    padding: 0px;
+    font-size: 1.5rem;
+    margin: 10px ;
+    padding-bottom: 10px;
+    
+}
+
+.hero-section h1{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.hero-section p{
+    padding: 0px;
+    font-size: 1.5rem;
+    margin: 10px ;
+    padding-bottom: 10px;
+}
+
+.sec-vision-pro{
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("assets/images/vision-pro-graphic.jpg");
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-vision-pro img{
+    width: 15vw;
+}
+
+.sec-watch img{
+    width: 10vw;
+    margin-top: 60px;
+}
+
+.sec-watch{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("assets/images/apple-watch.jpg");
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sec-ai{
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("assets/images/apple-intelligence.jpg");
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sec-card{
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("assets/images/apple-card.jpg");
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-card img{
+    width: 7vw;
+    margin-top: 60px;
+}
+
+.sec-trade-in{
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("assets/images/trade-in.jpg");
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-trade-in img{
+    width:10vw;
+    margin-top: 60px;
+}
+
+.movie-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-slider img{
+    width: 90%;
+    margin: 20px;
+}
+
+.card-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-slider img{
+    width: 30%;
+    margin: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f7;
+    width: 100vw;
+}
+.footer-sec{
+    width: 60%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 20px;
+}
+
+.links{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.links h1{
+    font-size: 12px;
+    font-weight: semibold;
+}
+
+.links li{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: 10px;
+}
+
+.footer-sec a{
+    color: #393939;
+}
+
+.footer-sec hr{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.footer-hr{
+    width: 60%;
+}
+
+.links ul{
+    list-style: none;
+    padding: 0;
+    
+}
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.copyright p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.copyright li{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.56);
+ 
+}
+
+.copyright{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+@media only screen and (max-width: 900px) {
+    dialog {
+        width: 98%;
+        padding: 10px;
+    }
+    dialog .dialog-body {
+        width: 80%;
+    }
+
+    dialog form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:0px;
+    }
+
+    dialog p br{
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    dialog form{
+        gap:0px;
+    }
+
+    dialog .dialog-body {
+        width: 30%;
+        padding: 10px;
+    }
+
+    dialog p br{
+        display: none;
+        }
+
+    dialog form select{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    dialog form .button{
+        margin-left: 0px;
+    }
+
+}
